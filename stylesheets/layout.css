@@ -38,6 +38,7 @@ li{
 	display:inline;
 }
 #cover{
+	display: none;
 	width:100%;
 }
 a{
