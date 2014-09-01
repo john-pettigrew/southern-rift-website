@@ -1,3 +1,9 @@
 #contact-links{
-	visibility:hidden;
+	display:none;
+}
+.main-video{
+	display: none;
+}
+.main-image{
+	display: inline;
 }
