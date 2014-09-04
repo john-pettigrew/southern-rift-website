@@ -6,7 +6,7 @@ $(document).ready(function(){
 		},
 		//mouse exit
 		function(){
-			$('.list_item').fadeTo('fast', 1, function(){
+			$('.list_item').fadeTo(0, 1, function(){
 			});
 	});
 	$('#contact-links li').hover(function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
 		},
 		//mouse exit
 		function(){
-			$('#contact-links li').fadeTo('fast', 1, function(){
+			$('#contact-links li').fadeTo(0, 1, function(){
 			});
 	});
 });
