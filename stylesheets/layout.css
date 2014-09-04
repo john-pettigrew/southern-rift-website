@@ -38,7 +38,6 @@ li{
 	display:inline;
 }
 #cover{
-	display: none;
 	width:100%;
 }
 a{
@@ -85,13 +84,14 @@ p{
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
 		#contact-links{
-			display:none;
+			margin-left: auto;
+			margin-right: auto;
+			position: absolute;
+			display: block;
 		}
-		.main-video{
-			display: none;
-		}
-		#cover{
-			display: inline;
+		#contact-links ul{
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 
