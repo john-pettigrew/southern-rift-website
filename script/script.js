@@ -4,12 +4,12 @@ $(document).ready(function(){
 	//Decide which view is needed.
 	var desktopContent = "<video class=\"main-video\" width=\"100%\" autoplay loop><source src=\"video/southern rift video.mp4\" type=\"video/mp4\"><img src=\"images/picture2.png\" id=\"cover\"></video>";
 	var mobileContent = "<img src=\"images/picture2.png\" id=\"cover\">";
-	$('#contact-links').css('top', screen.height);
-	if(screen.width < 760){
+	if(screen.width < 800){
+		$('#contact-links').css('top', screen.height);
 		$('#main-page-content').html(mobileContent);
-		
 	}
 	else{
+		$('#contact-links').css('top', $('#main-page.main-page-content').bottom + 10);
 		$('#main-page-content').html(desktopContent);
 	}
 

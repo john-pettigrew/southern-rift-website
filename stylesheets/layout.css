@@ -33,6 +33,7 @@ h1{
 	margin-right:auto;
 	float:none;
 	text-align:center;
+	width:800px;
 }
 li{
 	display:inline;
@@ -86,9 +87,12 @@ p{
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {
+	@media only screen and (max-width: 800px) {
 		#bio_photo{
 			display:block;
+		}
+		.links{
+			padding-right: 180px;
 		}
 	}
 
