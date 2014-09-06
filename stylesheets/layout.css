@@ -45,7 +45,7 @@ a{
 	text-decoration:none;
 	color:#000000;
 }
-#bio-photo{
+#bio_photo{
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -59,15 +59,19 @@ p{
 #contact-info{
 	text-align:center;
 }
-#contact-links{
-		display:inline;
-		padding-top: 10px;
-		margin-left:auto;
-		margin-right:0;
-}
 #contact-links li{
 	margin-left:8px;
 }
+
+#contact-links{
+	margin-left: auto;
+	margin-right: auto;
+	right: 0px;
+	display: block;
+	position:absolute;
+}
+
+
 
 /* #Page Styles
 ================================================== */
@@ -83,15 +87,8 @@ p{
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		#contact-links{
-			margin-left: auto;
-			margin-right: auto;
-			position: absolute;
-			display: block;
-		}
-		#contact-links ul{
-			margin-left: auto;
-			margin-right: auto;
+		#bio_photo{
+			display:block;
 		}
 	}
 
